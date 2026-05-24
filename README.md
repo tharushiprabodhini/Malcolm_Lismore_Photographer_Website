@@ -95,6 +95,4 @@ User Acceptance Testing
 
 Tharushi Prabodhini
 
-
-
-![Home Page](images\homepage.png) 
+<img src="images\homepage.png" alt="homepage" />

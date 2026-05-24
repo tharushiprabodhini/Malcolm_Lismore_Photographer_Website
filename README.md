@@ -100,4 +100,3 @@ User Acceptance Testing
 👩‍💻 Developed By
 Tharushi Prabodhini
 
-<img src="./images/homepage.png" alt="homepage" />

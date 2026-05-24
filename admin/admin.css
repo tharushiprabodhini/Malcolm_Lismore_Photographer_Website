@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Admin Login Styling */
+.admin-login-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.admin-login-container h2 {
+  margin-bottom: 10px;
+  color: #0eae0b;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.admin-login-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+.admin-login-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.admin-login-form input:focus {
+  outline: none;
+  border-color: #0b8432;
+  box-shadow: 0 0 0 3px rgba(11, 132, 50, 0.2);
+}
+
+.admin-login-form button {
+  padding: 12px;
+  background-color: #25b815;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-form button:hover {
+  background-color: #065c2a;
+}
+
+.footer-note {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* Navigation Bar */
+.admin-nav {
+  background-color: #28ab16;
+  padding: 16px 0;
+}
+
+.admin-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-nav ul li a.active,
+.admin-nav ul li a:hover {
+  background-color: white;
+  color: #043b1b;
+}
+
+/* Red Logout Button */
+.admin-nav ul li a.logout-btn {
+  background-color: #bb0d1e;
+  color: white;
+}
+
+.admin-nav ul li a.logout-btn:hover {
+  background-color: #7a1620;
+  color: white;
+}
+
+/* Page Content */
+main.admin-content {
+  flex: 1;
+  padding: 40px;
+  width: 100%;
+  margin: 30px 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-content h1 {
+  font-size: 32px;
+  color: #043b1b;
+  margin-bottom: 10px;
+}
+
+.admin-content p {
+  font-size: 18px;
+  color: #555;
+}
+
+.admin-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.admin-content th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.admin-content th {
+  background-color: #1a4d2e;
+  color: white;
+  font-weight: 600;
+}
+
+.admin-footer {
+  background: #0fad1c;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+form.delete-form {
+  display: inline;
+}

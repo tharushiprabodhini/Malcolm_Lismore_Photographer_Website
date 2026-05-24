@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #043b1b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: auto;
+}
+
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}

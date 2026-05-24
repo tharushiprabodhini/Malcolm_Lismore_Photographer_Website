@@ -1,0 +1,108 @@
+.wedding-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #2cbf50;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.book {
+  background: #fbfbfb;
+  padding: 30px;
+  min-height: 500px;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.bookingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #06c723;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #055003;
+}
+
+.successMessage {
+  display: none;
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #043b1b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-content p {
+  margin: 10px 0;
+}
+
+.footer-content a {
+  color: #4ca2ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}

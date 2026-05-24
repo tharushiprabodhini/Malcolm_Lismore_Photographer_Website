@@ -1,0 +1,240 @@
+body { /* prices page styles */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.wedding-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #2cbf50;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.wedding-card { 
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.wedding-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wedding-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.package {
+  margin-top: 20px;
+}
+
+.package h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.package ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.package li {
+  font-size: 14px;
+  margin-bottom: 8px;
+} 
+
+/* Portrait card style */
+.Portrait-card{
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+  margin-left: 35%;
+  margin-top: -66%;
+}
+
+.Portrait-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Portrait-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Event card style */
+.Special-Events-card{
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+  margin-left: 70%;
+  margin-top: -83%;
+}
+
+.Special-Events-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Special-Events-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.schedule-appointment{
+  display: inline-block;
+  background: rgb(3, 100, 21);
+  padding: 8px 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 510;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+
+.schedule-appointment:hover { 
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 133, 12);
+}
+
+/* Landscape card style */
+.Landscape-card{
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.Landscape-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Landscape-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Wildlife card style */
+.Wildlife-card{
+  background-color: #00b946;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 14px;
+  max-width: 400px;
+  margin: 20px auto;
+  margin-left: 70%;
+  text-align: left;
+  margin-top: -60%;
+}
+
+.Wildlife-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Wildlife-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Additional card Style */
+.Additional-card{
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+  margin-left: 35%;
+  margin-top: -52%;
+}
+
+.Additional-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Additional-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Events card Style */
+.Special-Events-card{
+  background-color: #00b946;
+  color: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.Special-Events-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Special-Events-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

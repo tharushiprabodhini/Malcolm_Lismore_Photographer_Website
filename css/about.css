@@ -1,0 +1,64 @@
+/* About Page Styles */
+.about {
+  background-color: #e6f5ea; 
+  border-radius: 12px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 100, 0, 0.1);
+}
+
+/* Heading */
+.about h2 {
+  color: #016b14;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Paragraph Text */
+.about-paragraph p {
+  flex: 2;
+  color: #014d0f;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.about-subheading p {
+  text-align: center;
+  font-weight: bold;
+  color: #016b14;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+  
+}
+
+.about img {
+  flex: 1 1 350px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-paragraph {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about-subheading p {
+    font-size: 18px;
+  }
+
+  .about-paragraph p {
+    font-size: 16px;
+  }
+}

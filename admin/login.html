@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login | Malcolm Lismore Photography</title>
+  
+  <link rel="stylesheet" href="admin.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="admin-login-container">
+    <h2>Admin Panel</h2>
+    <p class="subtitle">Secure access for administrators only</p>
+
+    <form method="POST" action="login.php" class="admin-login-form" novalidate>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="admin@example.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required />
+      </div>
+
+      <button type="submit">Sign In</button>
+    </form>
+
+    <p class="footer-note">© 2025 Malcolm Lismore Photography</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Account | Malcolm Lismore Photography</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/booking.css"/>
+  <link rel="stylesheet" href="css/login.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navigation">
+      <div class="navigation-items">
+        <a href="index page.html" class="logo-link">
+          <img src="images/Logo.png" alt="Logo" class="logo" />
+        </a>
+        <ul>
+          <li><a href="index page.html">Home</a></li>
+          <li><a href="about page.html">About</a></li>
+          <li><a href="services page.html">Services</a></li>
+          <li><a href="gallery page.html">Gallery</a></li>
+          <li><a href="prices page.html">Prices</a></li>
+          <li><a href="booking page.html" class="requires-login">Booking</a></li>
+        </ul>
+        <a href="contact page.html" class="contact-button">Contact Us</a>
+        <a href="login.html" class="login-button">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Register Form -->
+    <div class="book">
+      <h2 style="margin-bottom: 25px;">Create Account</h2>
+      <form class="bookingForm" method="POST" action="register.php">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm_password">Confirm Password *</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <button type="submit">Register</button>
+      </form>
+      <p style="margin-top: 20px;">Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+  </main>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Malcolm Lismore Photography. All rights reserved.</p>
+      <p><i>Developed by Tharushi Prabodhini</i></p>
+    </div>
+  </footer>
+
+  <!-- Toast JS -->
+  <script src="js/login.js" defer></script>
+  <script src="js/javaScript.js"></script>
+</body>
+</html>

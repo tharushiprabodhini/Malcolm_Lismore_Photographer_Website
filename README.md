@@ -1,6 +1,6 @@
 # Malcolm Lismore Photography Website
 
-A responsive multi-page photography website developed for the Pearson BTEC HND Web Design and Development (Unit 13) assignment. This project was created to showcase photography services, gallery management, customer booking, and user interaction features using front-end and back-end web technologies.
+This responsive multi-page photography website. That project was created to showcase photography services, gallery management, customer booking, and user interaction features using front-end and back-end web technologies.
 
 ---
 
@@ -67,7 +67,9 @@ The website includes both user-side pages and admin-side management pages.
 ├── login.php
 ├── register.php
 
+
 💻 System Functionalities
+
 Customer registration and login
 Online booking management
 Contact message handling
@@ -75,24 +77,27 @@ Dynamic form processing using PHP
 Responsive design for different devices
 Admin panel for system management
 
+
 🎯 Objectives
+
 Develop a professional photography website
 Improve user experience through responsive design
 Implement client-server communication
 Apply front-end and back-end web development concepts
 Demonstrate database integration and form handling
 
+
 🧪 Testing
 
-The system was tested using:
+The system was tested using,
 
 Functional Testing
 UI Testing
 Form Validation Testing
 User Acceptance Testing
 
-👩‍💻 Developed By
 
+👩‍💻 Developed By
 Tharushi Prabodhini
 
-<img src="images\homepage.png" alt="homepage" />
+<img src="./images/homepage.png" alt="homepage" />
